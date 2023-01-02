@@ -1,0 +1,13 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+header {height: 33%vh;
+width: 33%vh;
+border-bottom: 3px solid black;}
+    #timer {display: flex;
+    justify-content: flex-end;}
+body {background-color: aquamarine;}
+main h1{text-align: center;}
+
+
+
