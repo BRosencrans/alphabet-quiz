@@ -1,13 +1,33 @@
 * { margin: 0;
     padding: 0;
-    box-sizing: border-box;}
-header {height: 33%vh;
-width: 33%vh;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {min-height: 30vh;
+width: 30%vh;
 border-bottom: 3px solid black;}
     #timer {display: flex;
     justify-content: flex-end;}
 body {background-color: aquamarine;}
-main h1{text-align: center;}
+main {min-height: 70vh;}
+main h1{text-align: center;
+margin: 7px;}
 
+.quiz-box { background-color: white;
+   
+font-size: 20px;
+text-align: center;
+margin: 0 auto;
+ max-width: 600px;
+  padding: 30px 40px;
+}
 
+#start {background-color: mediumvioletred;
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+font-size: 15px;
+font-family:cursive;
+margin: 10px;}
 
