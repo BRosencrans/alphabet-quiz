@@ -5,6 +5,7 @@ var questions = document.querySelector("#question")
 var answers = document.querySelector("#choices")
 var timeRemaing = document.querySelector("#timer")
 var scoreTotal = document.querySelector("#score")
+var timeLeft;
 
 function startQuiz() {
     firstTest.setAttribute("class", "hide");
