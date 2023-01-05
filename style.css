@@ -8,17 +8,27 @@ width: 30%vh;
 border-bottom: 3px solid black;}
  h3{ text-align: center;}
 body {background-color: aquamarine;}
-main {min-height: 70vh;}
+
 main h1{text-align: center;
 margin: 7px;}
 
-section{ background-color: white;
-   
-font-size: 20px;
-text-align: center;
+section{ 
+  background-color: white;  
+
 margin: 0 auto;
- max-width: 600px;
-  padding: 30px 40px;
+ width: 50%;
+
+  padding: 30px 40px  
+}
+#quizStart {flex-direction: column;
+  justify-content:center ;
+text-align: center;}
+
+#answer-buttons {
+  width:100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 }
 
 
