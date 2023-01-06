@@ -1,4 +1,4 @@
-
+//questions and answers
 var cheatsheet = [
     {
         question:"What HTML tag do you use for JavaScript?",
@@ -55,7 +55,7 @@ var cheatsheet = [
 
 
 
-
+//document vars
 var startBtn = document.querySelector("button#start");
 var firstTest = document.querySelector("#quiz-start");
 var quizGame = document.querySelector("#quiz");
@@ -71,6 +71,7 @@ function startQuiz() {
     firstTest.setAttribute("class", "hide");
     quizGame.setAttribute("class", "");
     timeLeft = 60;
+    //starts timer on button click
     timeRemaing.textContent = `${timeLeft} second(s) left`;
     countdown = setInterval(()=>{
         timeLeft--;
@@ -91,18 +92,21 @@ thatIsCorrect.setAttribute("class","hide")
 var nextQ = cheatsheet[currentQuestion];
 var options= nextQ.choices
 questions.textContent = nextQ.question;
-   
-    answers.innerHTML=""
-  
-    
-     for (let i = 0; i < options.length; i++) {
-    let option = options[i];
-  
-    answers.textContent = option;
-  }
-  
+ answers.innerHTML ="";
+ 
 
-//add current question to page done
+  for (let i = 0; i < options.length; i++) {
+let option = options[i];
+  //can't get answers to show up as buttons
+ 
+let btn = document.createElement("button");
+ btn.innerHTML = option;
+ answers.appendChild(btn);  
+}
+  
+}
+
+
 //add current choices to page
 //add button selector for choices
 //check to see if right
@@ -110,11 +114,16 @@ questions.textContent = nextQ.question;
 //next question
 //when done or out of time end game
 
-}
 
+//will show correct on right choice 
+//and move to next question
 function correctChoice(){}
 
+//will show wrong answer on incorrect pick
+//will also deduct 5 seconds from time
+//move to next question
 function wrongAnswer(){}
+
 
 function endGame(){
     clearInterval()
@@ -122,7 +131,7 @@ function endGame(){
     scoreTotal.setAttribute("class","")
     timeRemaing.textContent=""
     scoreTotal.textContent = timeLeft;
-
+//will eventualy end game and get score
 }
 
 startBtn.addEventListener("click", startQuiz);

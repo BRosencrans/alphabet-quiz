@@ -5,7 +5,8 @@
 }
 header {min-height: 10vh;
 width: 30%vh;
-border-bottom: 3px solid black;}
+border-bottom: 3px solid black;
+background-color: palevioletred;}
  h3{ text-align: center;}
 body {background-color: aquamarine;}
 
@@ -14,16 +15,20 @@ margin: 7px;}
 
 section{ 
   background-color: white;  
-
+display: flex;
 margin: 0 auto;
  width: 50%;
 
   padding: 30px 40px  
 }
-#quizStart {flex-direction: column;
+#quizStart {
   justify-content:center ;
 text-align: center;}
-
+#start{text-align: center;
+  font-size: 15px;
+  font-family:cursive;
+  margin: 10px;}
+  
 #answer-buttons {
   width:100%;
   display: flex;
