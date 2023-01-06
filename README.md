@@ -11,9 +11,8 @@ You get a score based on time remaining, with the option to add your initials to
 [Coding quiz](https://brosencrans.github.io/coding-quiz-basic/)
 
 ## Screenshots
-![Quiz Start](assets\screenshots\quiz-page-1.png)
-
-![Highscore page under construction](assets\screenshots\under-construction-highscore.png)
+![Quiz Start](https://raw.githubusercontent.com/BRosencrans/coding-quiz-basic/main/assets/screenshots/quiz-page-1.png)
+![Highscore page under construction](https://raw.githubusercontent.com/BRosencrans/coding-quiz-basic/main/assets/screenshots/under-construction-highscore.png)
 
 
 ## Credits
