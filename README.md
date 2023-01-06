@@ -12,6 +12,7 @@ You get a score based on time remaining, with the option to add your initials to
 
 ## Screenshots
 ![Quiz Start](assets\screenshots\quiz-page-1.png)
+
 ![Highscore page under construction](assets\screenshots\under-construction-highscore.png)
 
 
